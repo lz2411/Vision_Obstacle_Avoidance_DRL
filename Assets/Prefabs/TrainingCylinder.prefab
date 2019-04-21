@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9c28e15bca83747ec8ff0c0d5e0d890a, type: 2}
+  - {fileID: 2100000, guid: 43576c19561ad4d5483d5ba776bc7df9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 2110024553977188367}
   - component: {fileID: 2110024553977188366}
   - component: {fileID: 2110024553977188365}
+  - component: {fileID: 8465196359478818121}
   m_Layer: 0
   m_Name: BlockAgent
   m_TagString: Untagged
@@ -201,6 +202,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!114 &8465196359478818121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110024553977188354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 331eb7acb7e9c41aba0cd8865152cc58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brain: {fileID: 11400000, guid: e2c8f2b10a6394e038a8e3cd4e39eab6, type: 2}
+  agentParameters:
+    agentCameras:
+    - {fileID: 4015576815723610166}
+    agentRenderTextures: []
+    maxStep: 5000
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 10
+  Target: {fileID: 2110024554506181902}
+  Obstacle: {fileID: 2110024555283876228}
+  moveContinous: 0
+  speed: 1
+  prevDistToTarget: 3.4028235e+38
 --- !u!1 &2110024554506181901
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,7 +416,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 098f74dab43f14b8ab902cde2e21a3fe, type: 2}
+  - {fileID: 2100000, guid: 24f5c20d40b0848f59e976a1e4488e0a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

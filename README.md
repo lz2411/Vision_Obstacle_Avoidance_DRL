@@ -18,6 +18,17 @@ https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md
 
 Please clone the repository and drag the "ML-Agents" folder in mL-agents/UnitySDK/Assets/into the Unity project tab under Assets folder. The unity project requires some of the lib in there to run. 
 
+3. Vision based Obstacle Avoidance
+
+https://github.com/lz2411/Vision_Obstacle_Avoidance_DRL
+Please clone this repository and imort into a new Unity project. It already contains project settings, but doesn not include Library for Unity project due to its large size. 
+
+To run the project in Unity: 
+
+1. open VisionBlockCylinder under Scenes
+2. make sure the control box is unticked in Academy 
+3. drag VisionBlockWithObstBrain under TF_Model into the model box of VisionBlockBrain
+4. Hit Play button 
 
 
 Any other question, please email lintong.zhang@hotmail.com to ask. 

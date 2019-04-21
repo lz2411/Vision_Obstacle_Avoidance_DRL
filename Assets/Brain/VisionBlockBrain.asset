@@ -23,5 +23,5 @@ MonoBehaviour:
     vectorActionDescriptions:
     - up, down, left, right, turn left, turn right
     vectorActionSpaceType: 0
-  model: {fileID: 11400002, guid: bdec2a874221c4e1287a893a912a4a40, type: 3}
+  model: {fileID: 11400000, guid: 53e9339ca9aea4a189c15ca42ba286b0, type: 3}
   inferenceDevice: 0

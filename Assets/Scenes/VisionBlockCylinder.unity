@@ -255,6 +255,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 43522924}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
@@ -395,6 +396,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 132681053}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
@@ -628,6 +630,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 331211633}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
@@ -780,6 +783,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 331900437}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
@@ -932,6 +936,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 426953696}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
@@ -1166,6 +1171,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 601957916}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
@@ -1318,6 +1324,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 622868337}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
@@ -1470,6 +1477,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 786185475}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
@@ -1622,6 +1630,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 874313180}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
@@ -1774,6 +1783,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 956465454}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
@@ -1926,6 +1936,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 964004969}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
@@ -2078,6 +2089,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 1217253837}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
@@ -2230,6 +2242,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 1571058363}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
@@ -2250,7 +2263,7 @@ GameObject:
   - component: {fileID: 1595935590}
   - component: {fileID: 1595935589}
   m_Layer: 0
-  m_Name: Academy
+  m_Name: RollerAcademy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2446,6 +2459,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 1608887403}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
@@ -2598,6 +2612,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras:
     - {fileID: 2016628100}
+    agentRenderTextures: []
     maxStep: 5000
     resetOnDone: 1
     onDemandDecision: 0
